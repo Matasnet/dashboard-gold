@@ -11,7 +11,7 @@ This project is a Dash application that visualizes and analyzes gold prices usin
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11 or new
 - Dash
 - Plotly
 - Pandas
