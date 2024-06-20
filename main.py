@@ -77,7 +77,7 @@ app.layout = html.Div([
 
   # Footer
     html.Div([
-        html.P('Created by Matasnet'),
+        html.P('Created by Mateusz Kozera | version 1.0'),
         html.P(["Link to my blog -> ",
         html.A("Blog", href="https://matasdata.blogspot.com", target="_blank")]),
          html.P(["Data source: ",
