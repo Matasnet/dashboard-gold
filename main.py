@@ -127,7 +127,7 @@ def render_content(tab, start_date, end_date):
 
         return [
             html.Div([
-                html.Img(src='data:image/png;base64,{}'.format(image_base64), style={'width': '100%'}),
+                html.Img(src='data:image/png;base64,{}'.format(image_base64), style={'width': '80%'}),
                 html.Div([
                     html.P(f"Data period: from {start_date} to {end_date}"),
                     html.P(f"Average Price: {avg_price} PLN"),
